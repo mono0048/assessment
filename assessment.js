@@ -32,7 +32,7 @@ assessmentButton.onclick = () => {
     tweetDivided.innerText = "";
     const anchor = document.createElement('a');
     const hrefValue =
-        'https://twitter.com/intent/tweet?button_hashtag' +
+        'https://twitter.com/intent/tweet?button_hashtag=' +
         encodeURIComponent('あなたのいいところ') +
         '&ref_src=twsrc%5Etfw';
     anchor.setAttribute('href', hrefValue);
